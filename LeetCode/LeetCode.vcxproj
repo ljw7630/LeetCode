@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{62140E30-6DA1-40C8-82C7-FDF872159595}</ProjectGuid>
+    <RootNamespace>LeetCode</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>C:\Personal\Projects\cppAlgorithm\AlgorithmImpl;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="3Sum.cpp" />
+    <ClCompile Include="3SumClosest.cpp" />
+    <ClCompile Include="4Sum.cpp" />
+    <ClCompile Include="AddBinary.cpp" />
+    <ClCompile Include="AddTwoNumbers.cpp" />
+    <ClCompile Include="Anagrams.cpp" />
+    <ClCompile Include="BalancedBinaryTree.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStock.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockII.cpp" />
+    <ClCompile Include="BestTimeToBuyAndSellStockIII.cpp" />
+    <ClCompile Include="BinaryTreeInorderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversal.cpp" />
+    <ClCompile Include="BinaryTreeLevelOrderTraversalII.cpp" />
+    <ClCompile Include="BinaryTreeMaximumPathSum.cpp" />
+    <ClCompile Include="BinaryTreeZigzagLevelOrderTraversal.cpp" />
+    <ClCompile Include="ClimbingStairscpp.cpp" />
+    <ClCompile Include="Combinations.cpp" />
+    <ClCompile Include="CombinationSum.cpp" />
+    <ClCompile Include="CombinationSumII.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromInorderAndPostorderTraversal.cpp" />
+    <ClCompile Include="ConstructBinaryTreeFromPreorderAndInorderTraversal.cpp" />
+    <ClCompile Include="ContainerWithMostWater.cpp" />
+    <ClCompile Include="ConvertSortedArrayToBinarySearchTree.cpp" />
+    <ClCompile Include="ConvertSortedListToBinarySearchTree.cpp" />
+    <ClCompile Include="CountAndSay.cpp" />
+    <ClCompile Include="DecodeWays.cpp" />
+    <ClCompile Include="DistinctSubsequences.cpp" />
+    <ClCompile Include="DivideTwoIntegers.cpp" />
+    <ClCompile Include="EditDistance.cpp" />
+    <ClCompile Include="FirstMissingPositive.cpp" />
+    <ClCompile Include="FlattenBinaryTreeToLinkedList.cpp" />
+    <ClCompile Include="GenerateParentheses.cpp" />
+    <ClCompile Include="GrayCode.cpp" />
+    <ClCompile Include="InsertInterval.cpp" />
+    <ClCompile Include="IntegerToRoman.cpp" />
+    <ClCompile Include="InterleavingString.cpp" />
+    <ClCompile Include="JumpGame.cpp" />
+    <ClCompile Include="JumpGameII.cpp" />
+    <ClCompile Include="LargestRectangleInHistogram.cpp" />
+    <ClCompile Include="LengthOfLastWord.cpp" />
+    <ClCompile Include="LetterCombinationsOfAPhoneNumber.cpp" />
+    <ClCompile Include="LongestCommonPrefix.cpp" />
+    <ClCompile Include="LongestPalindromicSubString.cpp" />
+    <ClCompile Include="LongestSubstringWithoutRepeatingCharacters.cpp" />
+    <ClCompile Include="LongestValidParentheses.cpp" />
+    <ClCompile Include="MaximalRectangle.cpp" />
+    <ClCompile Include="MaximumDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MaximumSubarray.cpp" />
+    <ClCompile Include="MedianOfTwoSortedArray.cpp" />
+    <ClCompile Include="MergeIntervals.cpp" />
+    <ClCompile Include="MergeKSortedLists.cpp" />
+    <ClCompile Include="MergeSortedArray.cpp" />
+    <ClCompile Include="MergeTwoSortedLists.cpp" />
+    <ClCompile Include="MinimumDepthOfBinaryTree.cpp" />
+    <ClCompile Include="MinimumPathSum.cpp" />
+    <ClCompile Include="MinimumWindowSubstring.cpp" />
+    <ClCompile Include="MultiplyStrings.cpp" />
+    <ClCompile Include="N-QueensII.cpp" />
+    <ClCompile Include="N-Queen.cpp" />
+    <ClCompile Include="NextPermutation.cpp" />
+    <ClCompile Include="PalindromeNumber.cpp" />
+    <ClCompile Include="PartitionList.cpp" />
+    <ClCompile Include="Pascal%27sTriangle.cpp" />
+    <ClCompile Include="Pascal%27sTriangleII.cpp" />
+    <ClCompile Include="PathSum.cpp" />
+    <ClCompile Include="PathSumII.cpp" />
+    <ClCompile Include="Permutations.cpp" />
+    <ClCompile Include="PermutationSequence.cpp" />
+    <ClCompile Include="PermutationsII.cpp" />
+    <ClCompile Include="PlusOne.cpp" />
+    <ClCompile Include="PopulatingNextRightPointersInEachNodeI_II.cpp" />
+    <ClCompile Include="Pow(x,n).cpp" />
+    <ClCompile Include="ReverseLinkedList.cpp" />
+    <ClCompile Include="SortColors.cpp" />
+    <ClCompile Include="strStr.cpp" />
+    <ClCompile Include="TwoSum.cpp" />
+    <ClCompile Include="ValidPalindrome.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
